@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 
 export function getNextDays() {
-  const days = [];
+  const days: String[] = [];
   const today = new Date();
 
   for (let i = 0; i < 5; i++) {
